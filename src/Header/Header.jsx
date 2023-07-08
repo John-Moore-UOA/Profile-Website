@@ -1,7 +1,7 @@
-import ProfileNamespace from "./ProfileNamespace";
 import TopBar from "./TopBar";
-import "./headerstyles.css";
 import backgroundImage from "../assets/trail-background.jpg";
+import ProfileNamespace from "./ProfileNamespace";
+import "./headerstyles.css";
 
 function Header() {
   return (
