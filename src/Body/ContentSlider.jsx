@@ -1,7 +1,7 @@
 function ContentSlider() {
   return (
     <>
-      <div className="body-content-slider">content slider</div>
+      <div className="body-content-slider"></div>
     </>
   );
 }

@@ -15,7 +15,7 @@ function ProfileNamespace() {
               <div className="row">
                 <div className="col">
                   {" "}
-                  <p className="namespace-major">John Moore</p>
+                  <p className="namespace-name">John Moore</p>
                 </div>
                 <div className="col">
                   {" "}
@@ -29,18 +29,18 @@ function ProfileNamespace() {
                   <p className="namespace-minor">Tauranga, New Zealand</p>
                 </div>
                 <div className="col">
-                  <p className="namespace-minor">placeholder</p>
-                </div>
-                <div className="col">
-                  <p className="namespace-minor">placeholder</p>
-                </div>
-                <div className="col">
-                  <p className="namespace-minor">placeholder</p>
-                </div>
-                <div className="col">
                   <p className="namespace-minor">
                     Expected Graduation: Nov 2025
                   </p>
+                </div>
+                <div className="col">
+                  <p className="namespace-minor">placeholder</p>
+                </div>
+                <div className="col">
+                  <p className="namespace-minor">placeholder</p>
+                </div>
+                <div className="col">
+                  <p className="namespace-minor">placeholder</p>
                 </div>
               </div>
             </div>
