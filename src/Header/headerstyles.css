@@ -3,15 +3,6 @@
   padding: 0;
 }
 
-.profile-background-img {
-  height : 40vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-
-  background-color: beige;
-}
-
 .header-namespace {
   
   position: relative;
@@ -24,6 +15,7 @@
 
 .top-bar {
   height : 10vh;
+  padding-top: 5px;
   text-align: center;
 }
 
@@ -33,17 +25,32 @@
   height: 150px;
   position: relative;
   display: inline-block;
-  overflow: hidden;
   margin-left: 10%;
   
   border: 10px solid black;
 
 }
 
-.header-background-img {
+.header-background-container {
+  position: relative;
+  height : 40vh;
   width: 100%;
+  
+  overflow: hidden;
+}
+
+.header-background-img {
+  width : 100%;
+
   margin: 0;
   padding: 0;
+}
 
-  background-color: beige;
+
+.header-namespace-details {
+  position: relative;
+  width: 100%;
+  
+  z-index: 2;
+  background-color: grey;
 }

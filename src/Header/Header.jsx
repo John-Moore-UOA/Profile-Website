@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <TopBar />
-      <div className="profile-background-img">
+      <div className="header-background-container">
         <img
           src={backgroundImage}
           className="header-background-img"
