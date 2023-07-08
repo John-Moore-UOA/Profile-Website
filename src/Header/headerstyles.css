@@ -6,7 +6,7 @@
 .header-namespace {
   
   position: relative;
-  height : 10vh;
+  height : 30vh;
   width: 100%;
   
   z-index: 2;
@@ -20,9 +20,9 @@
 }
 
 .img-thumbnail {
-  top: -140px;
-  width: 200px;
-  height: 150px;
+  bottom: 90px;
+  width: 300px;
+  height: 200px;
   position: relative;
   display: inline-block;
   margin-left: 10%;
@@ -31,9 +31,11 @@
 
 }
 
+
+
 .header-background-container {
   position: relative;
-  height : 40vh;
+  height : 50vh;
   width: 100%;
   
   overflow: hidden;
@@ -46,11 +48,39 @@
   padding: 0;
 }
 
+.header-namespace-img-container {
+  width:20vw;
+}
 
 .header-namespace-details {
   position: relative;
-  width: 100%;
+  width: 80vw;
+
+  margin-top: 10px;
+  margin-right: 10px;
   
   z-index: 2;
   background-color: grey;
+}
+
+
+.namespace-name {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.namespace-major {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.namespace-minor {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
 }

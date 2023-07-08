@@ -6,12 +6,43 @@ function ProfileNamespace() {
       <div className="header-namespace">
         <div className="row align-items-start">
           <div className="col g-0">
-            <img src={profilePicture} className="img-thumbnail" alt="..." />
+            <div className="header-namespace-img-container">
+              <img src={profilePicture} className="img-thumbnail" alt="..." />
+            </div>
           </div>
           <div className="col g-0">
             <div className="header-namespace-details">
-              <h1>John</h1>
-              <p>Tauranga Engineering Software 2025 etc...</p>
+              <div className="row">
+                <div className="col">
+                  {" "}
+                  <p className="namespace-major">John Moore</p>
+                </div>
+                <div className="col">
+                  {" "}
+                  <p className="namespace-major">
+                    Bachelor Of Software Engineering at University of Auckland
+                  </p>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col">
+                  <p className="namespace-minor">Tauranga, New Zealand</p>
+                </div>
+                <div className="col">
+                  <p className="namespace-minor">placeholder</p>
+                </div>
+                <div className="col">
+                  <p className="namespace-minor">placeholder</p>
+                </div>
+                <div className="col">
+                  <p className="namespace-minor">placeholder</p>
+                </div>
+                <div className="col">
+                  <p className="namespace-minor">
+                    Expected Graduation: Nov 2025
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
