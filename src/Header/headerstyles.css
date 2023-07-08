@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.profile-background-img {
+  height : 40vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: beige;
+}
+
+.header-namespace {
+  
+  position: relative;
+  height : 10vh;
+  width: 100%;
+  
+  z-index: 2;
+  background-color: white;
+}
+
+.top-bar {
+  height : 10vh;
+  text-align: center;
+}
+
+.img-thumbnail {
+  top: -140px;
+  width: 200px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 10%;
+  
+  border: 10px solid black;
+
+}
+
+.header-background-img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color: beige;
+}

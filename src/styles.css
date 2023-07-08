@@ -9,29 +9,6 @@
   width: 100vw;
 }
 
-.top-bar {
-  height : 10vh;
-  text-align: center;
-}
-
-.profile-background-img {
-  height : 40vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-
-  background-color: bisque;
-}
-
-.header-namespace {
-  
-  position: relative;
-  height : 10vh;
-  width: 100%;
-  
-  z-index: 2;
-  background-color: white;
-}
 
 .body-sidebar {
   height: 70vh;
