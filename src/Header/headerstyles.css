@@ -6,19 +6,21 @@
 .header-namespace {
   
   position: relative;
-  height : 30vh;
+  height : 35vh;
   width: 100%;
 
-  margin-right: 100px;
-
+padding-right: 20px;
   
   z-index: 2;
-  background-color: white;
+  background-color: rgb(249, 249, 249);
 }
 
+
+.text-info {
+  font-size: 1.5em;
+}
 .top-bar {
-  height : 10vh;
-  padding-top: 5px;
+  height : 5vh;
   text-align: center;
 }
 
@@ -32,7 +34,13 @@
   
   border: 10px solid black;
 
+  pointer-events: none;
+  filter: drop-shadow(0 0 0.75rem crimson);
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
+
 
 
 
@@ -49,6 +57,10 @@
 
   margin: 0;
   padding: 0;
+  pointer-events: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 
 .header-namespace-img-container {
@@ -58,6 +70,8 @@
 .header-namespace-details {
   position: relative;
   width: 80vw;
+  max-width: 1190px;
+  
 
   margin-top: 10px;
   
@@ -66,6 +80,7 @@
 
 
 .namespace-name {
+  padding-left: 30px;
   font-size: 5em;
   font-weight: bold;
   text-align: left;
@@ -77,6 +92,8 @@
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
+  text-shadow:0 1px 0 #000000;
+  padding: 10px;
 }
 
 .namespace-minor {
@@ -84,4 +101,8 @@
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
+
+  color: rgb(75, 75, 75);
+  text-shadow:0 1px 0 #000000;
+  letter-spacing: 0.8px;
 }

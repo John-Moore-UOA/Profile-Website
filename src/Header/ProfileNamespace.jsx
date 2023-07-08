@@ -20,7 +20,8 @@ function ProfileNamespace() {
                 <div className="col">
                   {" "}
                   <p className="namespace-major">
-                    Bachelor Of Software Engineering at University of Auckland
+                    Bachelor Of Software Engineering at the University of
+                    Auckland
                   </p>
                 </div>
               </div>
