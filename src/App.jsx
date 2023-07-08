@@ -1,14 +1,13 @@
 import "./styles.css";
 
-import TopBar from "./TopBar";
+import Header from "./Header/Header";
+import Body from "./Body/Body";
 
 function App() {
   return (
     <>
-      <TopBar />
-      <div className="background">
-        <h1 className="text-info bg-dark">Hello World</h1>
-      </div>
+      <Header />
+      <Body />
     </>
   );
 }
