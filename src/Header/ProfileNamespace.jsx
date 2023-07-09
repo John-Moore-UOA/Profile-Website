@@ -1,4 +1,5 @@
-import profilePicture from "../assets/Picture thingy.jpg";
+// import profilePicture from "../assets/Picture thingy.jpg";
+import profilePicture from "../assets/profile-picture.jpg";
 
 function ProfileNamespace() {
   return (

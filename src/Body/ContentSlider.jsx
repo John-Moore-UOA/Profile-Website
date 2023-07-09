@@ -13,19 +13,14 @@ function ContentSlider() {
     <>
       <div className="body-content-slider">
         <h1>Cool swiping content slector</h1>
-        {/* {value.map((index, value) => (
-          <Card
-            index={index}
-            title={value.title}
-            description={value.description}
-            image={value.image}
-            link={value.link}
-          />
-        ))}; */}
-        weird broken code to fix, must map values into react components
+        <Card cardProps={value} />
       </div>
     </>
   );
 }
 
 export default ContentSlider;
+
+// {value.map((index, value) => (
+//   ))}
+//   ; weird broken code to fix, must map values into react components
