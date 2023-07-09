@@ -4,10 +4,10 @@ function Card(cardProps) {
     <>
       <div className="card">
         <img src={props.image} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">{props.title}</h5>
-          <p class="card-text">{props.description}</p>
-          <a href={props.link} class="btn btn-primary">
+        <div className="card-body">
+          <h5 className="card-title">{props.title}</h5>
+          <p className="card-text">{props.description}</p>
+          <a href={props.link} className="btn btn-primary">
             Go somewhere
           </a>
         </div>
