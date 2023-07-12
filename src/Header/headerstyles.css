@@ -20,7 +20,11 @@ padding-right: 20px;
   font-size: 1.5em;
 }
 .top-bar {
+  position: absolute;
+  width: 100%;
   height : 5vh;
+  min-height: 30px;
+  z-index: 2;
   text-align: center;
 }
 
