@@ -110,6 +110,7 @@
 }
 
 .card-body {
+  align-self: center;
   width: 80%;
 }
 

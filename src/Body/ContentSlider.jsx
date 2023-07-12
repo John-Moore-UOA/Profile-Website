@@ -34,13 +34,6 @@ function ContentSlider() {
     link: "https://github.com/John-Moore-UOA/Personal/tree/main/MazeMania-master",
   };
 
-  let value4 = {
-    title: "Three",
-    description: "Test Description 3",
-    image: picture_1,
-    link: "#",
-  };
-
   let value5 = {
     title: "Discrete Math Calculator",
     description:
@@ -49,11 +42,19 @@ function ContentSlider() {
     link: "https://github.com/John-Moore-UOA/University-Projects/tree/main/assignment-3-John-Moore-UOA-main",
   };
 
-  let value6 = {
+  let value4 = {
     title: "Chess",
     description: "A simple C project I made to learn C a number of years ago",
     image: chess_img,
     link: "https://github.com/John-Moore-UOA/Personal/tree/main/Chess",
+  };
+
+  let value6 = {
+    title: "Temp butterfly Photo",
+    description:
+      "I have an interest in Photography, this is a photo I took, as a placeholder image",
+    image: picture_1,
+    link: false,
   };
 
   const [index, setIndex] = useState(0);

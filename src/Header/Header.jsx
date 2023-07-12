@@ -6,7 +6,7 @@ import "./headerstyles.css";
 function Header() {
   return (
     <>
-      <TopBar />
+      {/* <TopBar /> */}
       <div className="header-background-container">
         <img
           src={backgroundImage}

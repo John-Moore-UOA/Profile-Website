@@ -3,12 +3,10 @@
   padding: 0;
 }
 
-
-
-
 .text-info {
   font-size: 1.5em;
 }
+
 .top-bar {
   position: absolute;
   width: 100%;
@@ -33,9 +31,6 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
-
-
-
 
 .header-background-container {
   position: relative;
@@ -105,6 +100,5 @@
 }
 
 .namespace-details {
-  disaply: flex;
   padding-top: 5px;
 }
