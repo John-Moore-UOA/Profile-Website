@@ -44,21 +44,22 @@ function ContentSlider() {
   return (
     <>
       <div className="body-content-slider">
-        <h1>Cool swiping content slector</h1>
-        <Card cardProps={values[index]} />
-        <div
-          className="display-previous"
-          type="button"
-          onClick={() => onClick(false)}
-        >
-          Back
-        </div>
-        <div
-          className="display-next"
-          type="button"
-          onClick={() => onClick(true)}
-        >
-          Next
+        <div className="body-content-grid">
+          <div
+            className="display-previous"
+            type="button"
+            onClick={() => onClick(false)}
+          >
+            Back
+          </div>
+          <Card cardProps={values[index]} />
+          <div
+            className="display-next"
+            type="button"
+            onClick={() => onClick(true)}
+          >
+            Next
+          </div>
         </div>
       </div>
     </>

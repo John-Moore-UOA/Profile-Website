@@ -43,22 +43,47 @@
 .display-previous {
   height : 50px;
   width : 50px;
-  background-color: red;
 
-  top: -300px;
-  margin-left: 15px;
 
   position: relative;
+
+  margin-left: 30px;
+  margin-top: 200px;
+
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
 
 .display-next {
   height : 50px;
   width : 50px;
-  background-color: blue;
-
-  top: -300px;
-  right: -700px;
-  margin-left: 15px;
 
   position: relative;
+  
+  margin-right: 30px;
+  margin-top: 200px;
+
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.body-content-grid {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+}
+
+.card-body {
+  width: 80%;
+}
+
+.card-img-top {
+  height : 400px;
 }
