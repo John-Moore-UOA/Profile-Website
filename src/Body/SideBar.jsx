@@ -18,7 +18,8 @@ function SideBar() {
           </p>
 
           <p>
-            Java, JavaScript, C, C++, Python, Matlab, Typescript, HTML, CSS, C#
+            Java, JavaScript, React, C, C++, Python, Matlab, Typescript, HTML,
+            CSS, C#, BF
           </p>
 
           <h4>See my personal projects to the right of this section.</h4>
