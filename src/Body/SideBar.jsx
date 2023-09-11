@@ -5,7 +5,7 @@ function SideBar() {
         <h1>About Me</h1>
         <div className="body-sidebar-paragraph">
           <p>
-            Hello, I am a passionate student studying Software Engineering at
+            Hello, I am a Software Engineering student at
             the University of Auckland. I am activly working hard towards my
             degree and am currently in my second year of study.
           </p>
